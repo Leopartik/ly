@@ -1,0 +1,433 @@
+body {
+  color: #2c2437;
+  background-color: #ffffff;
+  font-family: "Ubuntu";
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+/* P */
+p {
+  color: #8f8f8f;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.first-p {
+  font-weight: 900;
+  color: #ff3c00;
+  font-size: 1.1rem;
+}
+
+.maket {
+  /* Позиционируем макет */
+  position: absolute;
+  top: 0;
+  left: 30px;
+  /* Делаем его полупрозрачным */
+  opacity: 0;
+  /* Оставляем возможность взаимодействия с элементами */
+  pointer-events: none;
+  /* Инвертируем изображение в вашем любимом -webkit (-blink) браузере */
+  -webkit-filter: invert(100%);
+}
+
+body:hover .maket {
+  opacity: .4;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: left;
+  color: #2c2437;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.big-heading {
+  font-size: 5.2rem;
+  line-height: 1;
+  padding: 0 0 8% 0;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 1% 12% 0;
+  text-align: center;
+}
+
+.img {
+  position: absolute;
+  margin-left: 22%;
+}
+
+.fab {
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.nav-link {
+  color: #616b8a;
+}
+
+.nav-link:hover {
+  color: #7882a1;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-item {
+  padding: 0.9rem 0 0 3rem;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 60, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Title */
+#title .container-fluid {
+  height: 900px;
+}
+
+.main {
+  padding-top: 5%;
+}
+
+.download-btns {
+  padding-top: 5%;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.download-btn {
+  vertical-align: middle;
+  height: 50px;
+  width: 250px;
+  font-size: 0.9rem;
+}
+
+.btn-app {
+  background-color: #ff3c00;
+  margin-right: 15px;
+  padding: 15px 5px;
+}
+
+.btn-app:hover {
+  background-color: #ff5b29;
+}
+
+.btn-google {
+  background-color: #2f3341;
+  z-index: 1;
+}
+
+.btn-google:hover {
+  background-color: #4c5161;
+}
+
+.btn-text {
+  color: white;
+  margin-bottom: 0;
+}
+
+.download-btns {
+  padding: 7px 15px;
+}
+
+.title-p {
+  padding-right: 30%;
+}
+
+/* Benefits */
+#benefits .container-fluid {
+  padding-top: 9%;
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #f8f9fb;
+}
+
+.fa-check-circle {
+  color: #ff3c00;
+  padding-bottom: 12px;
+}
+
+.p-group {
+  padding-top: 30px;
+}
+
+.benefits-right {
+  padding-left: 7%;
+}
+
+/* Offer */
+#offer .container-fluid {
+  padding-top: 9%;
+  background-color: #ffffff;
+  height: 825px;
+  padding-top: 8%;
+}
+
+.offer-h {
+  padding-top: 24%;
+}
+
+.offer-p {
+  padding-top: 6%;
+  padding-right: 20%;
+  padding-bottom: 5px;
+}
+
+.download-btns-vr {
+  width: 195px;
+  margin-bottom: 4%;
+  padding: 7px 30px;
+}
+
+.img3 {
+  margin-bottom: 200px;
+}
+
+/* Testimonials */
+#testimonials .container-fluid {
+  padding: 9% 1.2% 4%;
+  background-color: #f8f9fb;
+  height: 600px;
+}
+
+.testimonials-h {
+  padding-left: 80px;
+  margin: 0;
+  padding-left: 250px;
+}
+
+.testimonials-img {
+  margin-top: 30px;
+}
+
+.second-testimonial {
+  margin-left: 150px;
+}
+
+/* Download */
+#download .container-fluid {
+  padding-top: 8%;
+  background-color: #ffffff;
+  padding-bottom: 10%;
+}
+
+.icon-in-title {
+  color: #2f3341;
+}
+
+.download-h {
+  text-align: center;
+}
+
+.card-group {
+  margin: 50px 40px 0;
+}
+
+.card {
+  width: 10rem;
+  padding: 0;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-btn {
+  background-color: #ff3c00;
+  padding: 5px 10px;
+  height: 35px;
+  width: 110px;
+  font-size: 0.8rem;
+}
+
+.card-btn:hover {
+  background-color: #ff5b29;
+}
+
+.download {
+  height: 35px;
+  width: 110px;
+}
+
+.card-body {
+  padding-top: 10px;
+}
+
+.button-p {
+  color: white;
+  margin-bottom: 0;
+}
+
+.img6 {
+  position: absolute;
+  right: 0;
+}
+
+/* Footer */
+#footer .container-fluid {
+  padding: 6% 8% 0;
+  background-color: #2f3341;
+  padding-bottom: 4%;
+}
+
+#footer .navbar-nav {
+  margin-left: 110px;
+}
+
+#footer .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.footer-icon-group {
+  margin-left: 100px;
+}
+
+.footer-icon {
+  margin: 0 10px;
+  padding-top: 20px;
+}
+
+.footer-icon:hover {
+  color: #7882a1;
+}
+
+/* MEDIA */
+@media (max-width: 991.98px) {
+  .img {
+    position: relative;
+  }
+
+  #title .container-fluid {
+    height: 1200px;
+  }
+
+  #benefits .container-fluid {
+    height: 1020px;
+  }
+
+  #benefits h2 {
+    padding-top: 30px;
+    padding-right: 100px;
+  }
+
+  #offer .container-fluid {
+    padding-top: 80px;
+    height: 1200px;
+  }
+
+  #testimonials .container-fluid {
+    height: 1000px;
+  }
+
+  #testimonials h2 {
+    padding-top: 30px;
+  }
+
+  .img1 {
+    width: 659px;
+    height: 538px;
+  }
+
+  .img3 {
+    width: 586px;
+    height: 524px;
+  }
+
+  .img4 {
+    position: relative;
+  }
+
+  #download {
+    text-align: center;
+    padding-bottom: 10%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #title .container-fluid {
+    height: 1100px;
+  }
+
+  #offer .container-fluid {
+    padding-top: 80px;
+    height: 1000px;
+  }
+
+  #testimonials .container-fluid {
+    height: 950px;
+  }
+
+  .img1 {
+    width: 559px;
+    height: 438px;
+  }
+
+  .img3 {
+    width: 486px;
+    height: 424px;
+  }
+
+  .img6 {
+    width: 158px;
+    height: 165px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #title .container-fluid {
+    height: 1000px;
+  }
+
+  #offer .container-fluid {
+    padding-top: 80px;
+    height: 900px;
+  }
+
+  #testimonials .container-fluid {
+    height: 950px;
+  }
+
+  .second-testimonial {
+    margin-left: 0;
+  }
+
+  .img1 {
+    width: 359px;
+    height: 238px;
+  }
+
+  .img3 {
+    width: 286px;
+    height: 224px;
+  }
+}
